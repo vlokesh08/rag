@@ -42,3 +42,11 @@ htmlcov/
 
 # Docker volumes (local data)
 pgdata/
+
+# Internal spec/docs, not published to the GitHub remote
+docs/
+
+# Locally installed agent skills (not shared via git)
+.agents/
+.claude/skills/
+skills-lock.json
