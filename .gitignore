@@ -1,0 +1,44 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/.venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.pnpm-store/
+frontend/.next/
+frontend/node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+htmlcov/
+.coverage
+
+# Docker volumes (local data)
+pgdata/
